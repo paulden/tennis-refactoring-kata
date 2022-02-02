@@ -41,7 +41,7 @@ const allScores = [
   [14, 16, 'Win for player2'],
 ];
 
-describe('', () => {
+describe('tennisGame1', () => {
   it.each(allScores)(
       'should checkScore(%p, %p) return %p',
       (player1Score, player2Score, expected) => {
